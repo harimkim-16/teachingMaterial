@@ -25,25 +25,26 @@ FPS = 10
 
 class Python(object):
   """
-  이곳에 코드를 작성해주세요
+  이 곳에 코드를 작성해주세요.
   """
 
 
 class Feed(object):
   """
-  이곳에 코드를 작성해주세요
+  이 곳에 코드를 작성해주세요.
   """
   
   
 
 def draw_object(surface, color, pos):
-  r = pygame.Rect((pos[0], pos[1]), (GRIDSIZE, GRIDSIZE))
-  pygame.draw.rect(surface, color, r)
+  """
+  이 곳에 코드를 작성해주세요.
+  """
 
 def check_eat(python, feed):
-  if python.positions[0] == feed.position:
-    python.eat()
-    feed.create()
+  """
+  이 곳에 코드를 작성해주세요.
+  """
   
 def show_info(length, speed, surface):
   font = pygame.font.Font(None, 34)
